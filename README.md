@@ -87,20 +87,24 @@ There is a huge difference between group means when it comes to expenses. A 3.1 
 ---
 #### Correlation
 
-*Correlation Heatmap For Smokers*
+We will use the Spearman correlation, as the more relevant correlations are for variables that have outliers and/ or don't distribute similar to normal.
 
-<img src="https://user-images.githubusercontent.com/48052532/209884874-c45b99b2-a14f-4225-9041-1d93d31dcba7.png" alt="drawing" width="350"/>
+Let's remember that both 'expenses' and 'BMI' have outliers that we did not drop. Even though BMI does distribute similar to normal, 'expenses' has a significant left skew while 'age' has a more uniform distribution.
+
+**Spearman Correlation Heatmap For Smokers**
+
+<img src="https://user-images.githubusercontent.com/48052532/210006999-5f2c6acb-81ab-40ad-b7bd-54fa51f82b7c.png" alt="drawing" width="350"/>
 
 For smokers we can observe that:
 
-* age has a low positive correlation with expenses -> Corr = 0.37
-* bmi has a high positive correlation with expenses -> Corr = 0.81
+* age has a **moderate** positive correlation with expenses -> Corr = 0.45
+* bmi has a **strong** positive correlation with expenses. -> Corr = 0.83
 
-*Correlation Heatmap For Non-mokers*
+**Spearman Correlation Heatmap For Non-smokers**
 
-<img src="https://user-images.githubusercontent.com/48052532/209884965-b9494609-a435-4d73-96f4-3cf29aac1a08.png" alt="drawing" width="350"/>
+<img src="https://user-images.githubusercontent.com/48052532/210007086-a1087d5c-e880-495d-9a2b-4332a9d8a56d.png" alt="drawing" width="350"/>
 
 For non-smokers we can observe that:
 
-* age has a moderate positive correlation with expenses -> Corr = 0.63
-* bmi has no linear correlation with expenses --> Corr= 0.084
+* age has a **strong** positive correlation with expenses -> Corr = 0.82
+* bmi has **negligible** correlation with expenses -> Corr= 0.11
