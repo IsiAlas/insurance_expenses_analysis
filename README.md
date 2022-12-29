@@ -103,4 +103,4 @@ For smokers we can observe that:
 For non-smokers we can observe that:
 
 * age has a moderate positive correlation with expenses -> Corr = 0.63
-* bmi has no correlation with expenses --> Corr= 0.084
+* bmi has no linear correlation with expenses --> Corr= 0.084
