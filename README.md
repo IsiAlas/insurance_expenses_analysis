@@ -108,3 +108,31 @@ For non-smokers we can observe that:
 
 * age has a **strong** positive correlation with expenses -> Corr = 0.82
 * bmi has **negligible** correlation with expenses -> Corr= 0.11
+
+## 6. Conclusions
+
+Smoker status has the biggest significant effect on health expense increase, with smokers having on average 4 times higher expenses.
+
+| Smoker Status    | Average Health Expenses |
+| -------------    | ------------------------|
+| Smoker           | $32.050,23              |
+| Non-smoker       | $8.440,66               |
+
+Age and BMI has a low effect on health expenses in the group as a whole, but when we separate smokers and non-smokers we observe the following:
+* For non-smokers age has a more significant effect on increased expenses. People older than 51 years old have almost double health expenses on average than people 30 years or younger.
+
+| Age Group    | Average Health Expenses |
+| -------------| ------------------------|
+| 18 - 30      | $9.415,06               |
+| 31 - 50      | $13.280,77              |
+| 51 - 64      | $18.084,99              |
+
+
+* For smokers BMI has the most significant effect. In this case for obese people health expenses almost doubles compared to the other BMI classifications.
+
+| BMI Class     | Average Health Expenses |
+| ------------- | ------------------------|
+| Obese         | $41.557,99              |
+| Overweight    | $22.495,87              |
+| Healthy       | $19.942,22              |
+| Underweight   | $18.809,83              |
