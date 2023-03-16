@@ -12,7 +12,7 @@
 ## 3. Notebooks and files
 
 * [insurance.csv](https://github.com/IsiAlas/insurance_premium_analysis/blob/main/insurance.csv) - dataset
-* [insurance_expenses_analysis.ipynb](https://github.com/IsiAlas/insurance_premium_analysis/blob/main/insurance_expenses_analysis.ipynb) - Exploratory Analysis Notebook
+* [insurance_expenses_analysis.ipynb](https://github.com/IsiAlas/insurance_expenses_analysis/blob/main/insurance_premium_analysis.ipynb) - Exploratory Analysis Notebook
 
 ## 4. Dataset
 
